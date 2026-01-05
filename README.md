@@ -4,67 +4,14 @@ Welcome to my **Exercism Solutions** repository! This repository contains my sol
 
 ---
 
-## 📂 Repository Structure
-
-The repository is organized by programming language and then by exercise track:
-
-```
-exercism-solutions/
-├─ javascript/
-│  ├─ lasagna/
-│  │  ├─ lasagna.js
-│  │  └─ lasagna.spec.js
-│  ├─ annalyns-infiltration/
-│  │  ├─ annalyns-infiltration.js
-│  │  └─ annalyns-infiltration.spec.js
-│  ├─ freelancer-rates/
-│  │  ├─ freelancer-rates.js
-│  │  └─ freelancer-rates.spec.js
-│  └─ resistor-color/
-│     ├─ resistor-color.js
-│     └─ resistor-color.spec.js
-├─ typescript/
-│  ├─ two-fer/
-│  │  ├─ two-fer.ts
-│  │  └─ two-fer.spec.ts
-│  └─ resistor-color-duo/
-│     ├─ resistor-color-duo.ts
-│     └─ resistor-color-duo.spec.ts
-└─ README.md
-```
-
-- **Language folders**: `javascript/`, `typescript/`, etc.
-- **Exercise folders**: Named after the exercise (e.g., `lasagna/`, `freelancer-rates/`).
-- **Implementation files**: Contain your solution code.
-- **Test files**: Copied from Exercism to verify correctness.
-
----
-
-## 🧩 Exercises Included
-
-Here are some examples of the exercises solved in this repository:
-
-| Exercise | Language | Description |
-|----------|---------|-------------|
-| Two Fer | TypeScript | Implements a function that returns "One for X, one for me." with default handling. |
-| Resistor Color | JavaScript/TypeScript | Maps resistor color bands to numerical values and provides utility functions. |
-| Resistor Color Duo | TypeScript | Calculates the value of a resistor from the first two color bands. |
-| Lasagna | JavaScript | Calculates preparation time, remaining oven time, and total working time for a lasagna recipe. |
-| Annalyn’s Infiltration | JavaScript | Implements logic to decide if certain actions can be performed depending on guards’ states. |
-| Freelancer Rates | JavaScript | Calculates day rates, project days, and discounted monthly project pricing. |
-
-> Each solution includes clear, well-commented code with `@param` and `@returns` annotations for better readability.
-
----
-
 ## 🚀 Getting Started
 
 To run and test these exercises locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/exercism-solutions.git
-   cd exercism-solutions
+   git clone https://github.com/elviswangari/Exercism.git
+   cd Exercism
    ```
 
 2. **Install dependencies (if applicable):**
@@ -79,8 +26,6 @@ To run and test these exercises locally:
    # or for TypeScript
    npx tsc && npm test
    ```
-
-> Each exercise folder contains a `.spec.js` or `.spec.ts` file copied from Exercism that contains the automated tests.
 
 ---
 
